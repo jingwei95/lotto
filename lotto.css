@@ -1,0 +1,29 @@
+#container{
+	display:flex;
+	flex-direction:row-reverse;
+}
+#lotto, #blocklyDiv {
+	height: 480px; 
+	width: 50%;
+}
+#lotto {
+	border: solid 10px grey;
+	text-align:center;
+	border-radius:20px;
+}
+#runDiv{
+	border: solid 10px grey;
+	border-radius: 20px;
+	text-align: center;
+	width: 30%;
+}
+#lottoNumber {
+	colpr: white;
+	background-color: blue;
+	font-size: 2em; /* o.style.fontSize = "2em";*/
+	width: 80%;
+	border: white 3px solid;
+	border-radius: 12px 12px;
+	margin: auto;
+	text-align: center;
+}
